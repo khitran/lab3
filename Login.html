@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!--
+    Basically Basic Jekyll Theme 1.1.1
+    Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/jekyll-basically-theme/blob/master/LICENSE.md
+-->
+<html lang="en-US" class="no-js">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+    <title>Login</title>
+    <meta name="description" content="">
+    <link rel="canonical" href="http://dark-park.com:31337/">
+  
+
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/static/stylesheets/main.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans:400,400i,600,600i">
+  
+
+  
+</head>
+
+
+  <body class="layout--page login">
+
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+    <div class="sidebar-toggle-wrapper">
+      <button class="toggle navicon-button larr" type="button">
+        <span class="toggle-inner">
+          <span class="sidebar-toggle-label">Menu</span>
+          <span class="navicon"></span>
+        </span>
+      </button>
+    </div>
+
+    <div id="sidebar" class="sidebar">
+      <div class="inner">
+        <nav id="nav-primary" class="site-nav" itemscope itemtype="http://schema.org/SiteNavigationElement" aria-label="Main navigation">
+  <ul id="menu-main-navigation" class="menu">
+    <!-- Home link -->
+    <li class="menu-item">
+      <a href="/home" itemprop="url">
+        <span itemprop="name">Home</span>
+      </a>
+    </li>
+
+    <!-- site.pages links -->
+      
+      
+        <li class="menu-item">
+          <a href="/contact" itemprop="url">
+            <span itemprop="name">Contact</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/gpg" itemprop="url">
+            <span itemprop="name">GPG</span>
+          </a>
+        </li>
+      
+    
+      
+      
+        <li class="menu-item">
+          <a href="/login" itemprop="url">
+            <span itemprop="name">Login</span>
+          </a>
+        </li>
+      
+    
+  </ul>
+</nav>
+        <ul class="contact-list">
+
+</ul>
+
+      </div>
+    </div>
+
+    <div class="canvas">
+      <div class="wrapper">
+        
+
+<header id="masthead">
+  <div class="inner">
+    <div class="title-area">
+      
+        <p class="site-title">
+          <a href="/">
+            <img src="/static/dplogo.png" alt="" class="site-logo">
+            <span>Dark Park</span>
+          </a>
+        </p>
+      
+    </div>
+  </div>
+</header>
+
+        <header class="intro">
+  
+
+  <div class="inner">
+    <div class="intro-text">
+      <h1 class="intro-title">Login
+</h1>
+      
+
+      
+
+      
+
+      
+    </div>
+  </div>
+</header>
+
+
+<main id="main" class="page-content" aria-label="Content">
+  <div class="inner">
+    <article class="entry-wrap">
+      <div class="entry-content">
+          <form name="login" method="post">
+              <table>
+    <tr><th><label for="usernameBox">Username</label></th><td><input id="usernameBox" name="user" type="text"/></td></tr>
+    <tr><th><label for="passwordBox">Password</label></th><td><input id="passwordBox" name="password" type="password"/></td></tr>
+    <tr><th><label for="loginButton"></label></th><td><button id="loginButton" name="Login">Login</button></td></tr>
+</table>
+          </form>
+
+      </div>
+    </article>
+
+    <footer id="footer" class="site-footer">
+  <div class="copyright">
+    
+      <p>&copy; 2017 Dark Park.</p>
+    
+  </div>
+</footer>
+
+  </div>
+</main>
+
+      </div>
+    </div>
+
+    
+
+<script async src="/static/javascripts/main.js"></script>
+
+  </body>
+
+</html>
